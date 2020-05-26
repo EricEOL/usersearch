@@ -1,0 +1,45 @@
+#logo img{
+    width: 150px;
+    margin-left: 45%;
+}
+
+div{
+    margin-top: 10px;
+}
+
+input[type="text"]{
+    width: 81%;
+    margin: auto;
+}
+
+input[type="submit"]{
+    margin: auto;
+    margin-left: 43%;
+    width: 200px;
+}
+
+#users{
+    padding-top: 0;
+}
+
+.users{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.users p{
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.linha {
+    height: 1px;
+    width: 400px;
+    background-color: lightgray;
+}

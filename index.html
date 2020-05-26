@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Consulta de Usuários</title>
+</head>
+<body>
+    <div id="logo">
+        <img src="./img/img-user.png">
+        <h1 class="text-center">Encontre seus usuários favoritos</h1>
+    </div>
+    <div>
+            <input type="text" class="form-control" id="inputUser" required placeholder="Digite o nome da pessoa que deseja encontrar">
+        
+            <div class="button-class">
+                <input type="submit" id="searchBtn" class="btn btn-primary"" value="Encontrar">
+            </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Usuários Encontrados: (<span id="qtyUsersFound"></span>)</h5>
+                    </div>
+                    <div class="card-body" id="users">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Estatísticas</h5>
+                    </div>
+                    <div class="card-body" id="informations">
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
